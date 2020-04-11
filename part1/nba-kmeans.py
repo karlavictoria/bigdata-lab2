@@ -190,9 +190,9 @@ if __name__ == "__main__":
     print("The NBA player have been classified into four confortable zones, with the following structure: [shotclock,shotdist,closedefdist]")
     print("The four zones are:")
     print("Zone1: %s" % (centroid1))
-    print("Zone2: %s" (centroid2))
-    print("Zone3: %s" (centroid3))
-    print("Zone4: %s" (centroid4))
+    print("Zone2: %s" % (centroid2))
+    print("Zone3: %s" % (centroid3))
+    print("Zone4: %s" % (centroid4))
     print("The best zones for James Harden, Chris Paul, Stephen Curry and Lebron James are:")
     df = sqlcontext.sql("""SELECT playername, besthitrate, bestzone
 		  	          FROM df
